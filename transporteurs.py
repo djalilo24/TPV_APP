@@ -28,7 +28,7 @@ class Transp(QtWidgets.QWidget):
         
         self.setLayout(self.group_transp)
         #===================comobox choix research===========================
-        self.lable_search = QtWidgets.QLabel("البحث بواسطة",self)
+        self.lable_search = QtWidgets.QLabel("البحث بواس0000طة",self)
         self.group_search.addWidget(self.lable_search,alignment=QtCore.Qt.AlignRight)
         self.search_transp = QtWidgets.QComboBox(self)
         self.search_transp.addItems(["","choix1","choix2"])
